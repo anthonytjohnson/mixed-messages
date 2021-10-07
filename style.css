@@ -1,0 +1,13 @@
+#message {
+  font-weight: 700;
+  font-size: larger;
+}
+
+#author {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.message-block{
+  display: inline-flex;
+}
