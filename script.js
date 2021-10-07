@@ -8,6 +8,11 @@ const newQuote = (quote, author) => {
     author: author
   });
 }
+
+const getRandomQuote = () => {
+  message.innerText = quotes[Math.floor(Math.random()*quotes.length)].quote;
+  author.innerText = `- ${quotes[Math.floor(Math.random()*quotes.length)].author}`;
+}
 newQuote('Spread love everywhere you go. Let no one ever come to you without leaving happier.', 'Mother Teresa');
 newQuote('When you reach the end of your rope, tie a knot in it and hang on.', 'Franklin D. Roosevelt');
 newQuote('Always remember that you are absolutely unique. Just like everyone else.', 'Margaret Mead');
@@ -21,3 +26,7 @@ newQuote('Do not go where the path may lead, go instead where there is no path a
 
 message.innerText = quotes[Math.floor(Math.random()*quotes.length)].quote;
 author.innerText = `- ${quotes[Math.floor(Math.random()*quotes.length)].author}`;
+
+
+
+document.getElementById('button-quote').addEventListener('click', getRandomQuote);
