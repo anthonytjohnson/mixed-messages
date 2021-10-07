@@ -1,0 +1,22 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonytjohnson/mixed-messages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonytjohnson/mixed-messages/issues"
+  },
+  "homepage": "https://github.com/anthonytjohnson/mixed-messages#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
